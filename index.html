@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LaTiendaFSA | Mates, Yerbas y Accesorios</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#f6f0e5;color:#2b2118}
+header{background:#fffaf1;position:sticky;top:0;z-index:10;border-bottom:1px solid #ddd0bb}
+.nav{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px}
+.logo{height:75px;width:auto;object-fit:contain;border-radius:10px}.brand{font-weight:800;font-size:22px}
+nav a{margin-left:18px;text-decoration:none;color:#39291d;font-weight:700}
+.hero{max-width:1100px;margin:25px auto;padding:45px 25px;border-radius:24px;background:linear-gradient(135deg,#e9d09a,#fff8e9);text-align:center}
+.hero h1{font-size:42px;margin:5px 0 10px}.hero p{font-size:18px}.btn{display:inline-block;background:#6b3f20;color:white;padding:13px 22px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:10px}
+section{max-width:1100px;margin:40px auto;padding:0 20px}h2{text-align:center;font-size:30px}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.cat{background:white;padding:25px;border-radius:18px;text-align:center;box-shadow:0 4px 14px #00000010;font-size:18px;font-weight:bold}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.product{background:white;border-radius:18px;overflow:hidden;box-shadow:0 4px 14px #00000012}.product img{width:100%;height:220px;object-fit:cover}.product .info{padding:16px}.price{font-size:21px;font-weight:800}.placeholder{height:220px;background:#eadfcf;display:flex;align-items:center;justify-content:center;color:#806c57}
+footer{background:#2b2118;color:white;text-align:center;padding:35px;margin-top:50px}
+@media(max-width:700px){.brand{display:none}.logo{height:58px}nav a{margin-left:8px;font-size:13px}.hero h1{font-size:31px}.categories{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<img class="logo" src="logo.jpg" alt="LaTiendaFSA">
+<div class="brand">LaTiendaFSA</div>
+<nav><a href="#productos">Productos</a><a href="#categorias">Categorías</a><a href="#contacto">Contacto</a></nav>
+</div></header>
+
+<div class="hero">
+<h1>LaTiendaFSA</h1>
+<p>🧉 Mates, yerbas y accesorios para disfrutar cada momento.</p>
+<a class="btn" href="#productos">Ver productos</a>
+</div>
+
+<section id="categorias">
+<h2>Categorías</h2>
+<div class="categories">
+<div class="cat">🧉 Mates</div><div class="cat">🌿 Yerbas</div><div class="cat">🥄 Bombillas</div><div class="cat">🎒 Accesorios</div>
+</div>
+</section>
+
+<section id="productos">
+<h2>Productos destacados</h2>
+<div class="products">
+<div class="product"><div class="placeholder">Foto del producto</div><div class="info"><h3>Mate 1</h3><p>Agregá aquí la descripción.</p><div class="price">$0</div></div></div>
+<div class="product"><div class="placeholder">Foto del producto</div><div class="info"><h3>Mate 2</h3><p>Agregá aquí la descripción.</p><div class="price">$0</div></div></div>
+<div class="product"><div class="placeholder">Foto del producto</div><div class="info"><h3>Accesorio 1</h3><p>Agregá aquí la descripción.</p><div class="price">$0</div></div></div>
+</div>
+</section>
+
+<section id="contacto">
+<h2>¿Querés hacer un pedido?</h2>
+<p style="text-align:center">Escribinos por WhatsApp para consultar disponibilidad y precios.</p>
+<div style="text-align:center"><a class="btn" href="https://wa.me/543704004257" target="_blank">WhatsApp</a></div>
+</section>
+
+<footer>© 2026 LaTiendaFSA · Mates, Yerbas y Accesorios</footer>
+</body>
+</html>
